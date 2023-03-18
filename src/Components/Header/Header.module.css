@@ -1,0 +1,25 @@
+.btnn{
+    background-color: #D3FAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162.41px;
+    height: 42px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    text-align: center;
+    color: #14B1C7;
+    float: right;
+    margin: 15px;
+}
+
+.p{
+    color: #242424;
+    font-size: 25px;
+    font-weight: 400;
+    width: 417px;
+    text-align: right;
+}

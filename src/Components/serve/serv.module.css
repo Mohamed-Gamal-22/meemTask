@@ -1,0 +1,129 @@
+.img1{
+    width: 15%;
+    
+}
+.over1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    background-color: rgba(69, 131, 218, 0.4);
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.over1 span{
+    position: absolute;
+    bottom: 15%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+}
+.img2{
+    width: 15%;
+}
+.over2{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    bottom: 0;
+    width: 15%;
+    background-color: rgba(42, 226, 174, 0.4);
+    z-index: 20;
+}
+.over2 span{
+    position: absolute;
+    bottom: 15%;
+    width: 15%;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    text-align: center;
+}
+.img3{
+    width: 15%;
+}
+.over3{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    bottom: 0;
+    width: 15%;
+    background-color: rgba(231, 74, 27, 0.4);
+    z-index: 20;
+}
+.over3 span{
+    position: absolute;
+    bottom: 15%;
+    width: 15%;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    text-align: center;
+}
+.img4{
+    width: 15%;
+}
+.over4{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    bottom: 0;
+    width: 15%;
+    background-color: rgba(39, 234, 0, 0.4);
+    z-index: 20;
+}
+.over4 span{
+    position: absolute;
+    bottom: 15%;
+    width: 15%;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    text-align: center;
+}
+.img5{
+    width: 40%;
+}
+
+.over5{
+    position: absolute;
+    top: 0;
+    left: 60%;
+    bottom: 0;
+    width: 40%;
+    background-color: rgba(18, 77, 82, 0.4);
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.over5 h4 {
+    border-bottom: 2px solid #fff;
+    width: fit-content;
+    float: right;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.over5 .cont div:last-of-type{
+    background-color: #31B98A;
+    float: right;
+    padding: 8px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}

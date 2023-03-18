@@ -1,0 +1,66 @@
+.pop{
+    position: absolute;
+    width: 710px;
+    height: 363px;
+    top: 80px;
+    left: 20px;
+    background-color: #EFFDFF;
+    border-radius: 0 0 106px 0;
+    -webkit-border-radius: 0 0 106px 0;
+    -moz-border-radius: 0 0 106px 0;
+    -ms-border-radius: 0 0 106px 0;
+    -o-border-radius: 0 0 106px 0;
+    color: #939393;
+    z-index: 100;
+    ;
+}
+
+@media (max-width: 1200px){
+    .pop{
+        display: none;
+    }
+}
+
+.up{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.arrow{
+    position: relative;
+    top: 10px;
+    color: #14B1C7;
+}
+
+.mybtn{
+    position: absolute;
+    bottom: 60px;
+    left: 52%;
+    background-color: #31B98A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 136px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding: 10px;
+    color: #fff;
+}
+
+.arrow2{
+    color: #fff;
+    position: relative;
+    top: 3px;
+}

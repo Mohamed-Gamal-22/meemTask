@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Bridge from './Components/Bridge/Bridge';
+import Footer from './Components/Footer/Footer';
+import Hadreen from './Components/Hadreen/Hadreen';
+import Header from './Components/Header/Header'; 
+import Popup from './Components/Popup/Popup';
+import Serve from './Components/serve/Serv';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Popup />
+      <Hadreen />
+      <Bridge />
+      <Serve />
+      <Footer />
+    </>
   );
 }
 
